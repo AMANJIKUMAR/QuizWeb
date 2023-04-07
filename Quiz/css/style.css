@@ -24,8 +24,8 @@ body{
     padding-bottom: 30px;
 }
 .nxtBtn{
-    background: #fff;
-    color: #222;
+    background: #260086;
+    color: #ffffff;
     font-weight: 500;
     width: 100%;
     border: 1px solid#222;;
@@ -34,4 +34,10 @@ body{
     text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    transition: all 0.3s;
+
+}
+.nxtBtn:hover{
+background-color: rgb(35, 123, 255);
+color: #fff;
 }
